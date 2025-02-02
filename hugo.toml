@@ -1,14 +1,14 @@
-baseURL = 'https://eunkwangchoi.com'
-title = 'the texts'
+baseURL = 'https://arteuro.net'
+title = 'the images'
 theme = 'coming-soon'
-copyright = 'Copyright 2025 Eunkwang Ryan Choi. All Rights Reserved.'
+copyright = 'Copyright 2025 Atelier Euro. All Rights Reserved.'
 summaryLength = 20
 defaultContentLanguage = 'en'
 ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
-  author = 'Eunkwang Ryan Choi'
-  description = 'Ryan Choi -- Artist, Writer, and Researcher'
+  author = 'Atelier Euro'
+  description = "It's Under Construction..."
   location = ["Seoul", "South Korea"]
   contact = ["ryan.choi@arteuro.net"]
   images = ["images/hero-image.png"]
@@ -19,12 +19,12 @@ ignoreLogs = ['warning-goldmark-raw-html']
       backgroundColor = "#FFFFFF"
       faviconColor = "#000000"
     [params.social]
-      instagram = "https://instagram.com/eunkwang.ryan.choi"
+      instagram = "https://instagram.com/atelier.euro"
       facebook = "#"
 
 [services]
   [services.googleAnalytics]
-  id = 'G-SGXH2E8Q74'
+  id = 'G-60Y7KS184X'
 
 [markup]
   [markup.goldmark]
