@@ -1,0 +1,17 @@
+baseURL = "https://arteuro.net"
+languageCode = 'en-us'
+theme = "coming-soon"
+
+[params]
+    title = "Atelier Euro - Coming Soon" 
+    description = "It's Under Construction..."
+    favicon = ""
+    message = "COMING SOON !" 
+    release = "March 1, 2025"
+    background = "" 
+
+socialIcons = [
+    {name = "email", url = "support@arteuro.net"},      
+    {name = "instagram", url = "https://instagram.com/atelier.euro"}    
+] 
+
