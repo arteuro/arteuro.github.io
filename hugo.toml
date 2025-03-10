@@ -1,8 +1,8 @@
 baseURL = 'https://arteuro.net'
 title = 'the images'
-theme = 'coming-soon'
+theme = 'roxo'
 copyright = 'Copyright 2025 Atelier Euro. All Rights Reserved.'
-summaryLength = 20
+summaryLength = 25
 defaultContentLanguage = 'en'
 ignoreLogs = ['warning-goldmark-raw-html']
 
@@ -12,15 +12,94 @@ ignoreLogs = ['warning-goldmark-raw-html']
   location = ["Seoul", "South Korea"]
   contact = ["support@arteuro.net"]
   images = ["images/hero-image.png"]
-  logo = "arrow-up.png"
+  logo = "images/logo.png"
+  logo_footer = "images/logo-footer.png"
+  favicon_icon = "images/favicon.ico"
+  favicon_shortcut_icon = "images/favicon.png"
+  custom_stylesheets = []   # [ "scss/my_1.scss", "scss/my_2.scss" ]
+  dateFormat = "26 FEB 1994"
+  fabform  = "https://fabform.io/f/USAg2Jl"
   math = true
-    [params.favicons]
-      themeColor = "#FFFFFF"
-      backgroundColor = "#FFFFFF"
-      faviconColor = "#000000"
-    [params.social]
-      instagram = "https://instagram.com/atelier.euro"
-      facebook = "#"
+  [params.contactForm]
+    placeholder_first_name        = "First Name"
+    placeholder_last_name         = "Last Name"
+    placeholder_email             = "Email"
+    placeholder_project_type      = "Project Type"
+    placeholder_about_the_project = "About the Project"
+    send_message                  = "Send Message"
+    [[params.contactForm.projectType]]
+      value = "gd"
+      title  = "Graphics Design"
+    [[params.contactForm.projectType]]
+      value = "wd"
+      title  = "Web Design"
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "We’re a Design Studio That Belies In the Great Ideas"
+    tagline               = "WE WORK HARD, WE PLAY HARD"
+    primary_button        = "See Our Works"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Connect with Us"
+    secondary_button_url  = "contact"
+  [params.blog]
+    read_more             = "read more"
+  [params.portfolio]
+    enable    = true
+    title     = "OUR RECENT WORKS"
+    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+    view_project = "view project"
+    more_works = "MORE WORKS"
+    scroll_down = "scroll down"
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "LET’S WORK TOGETHER"
+    primary_button      = "Submit Query"
+    primary_button_url  = "contact"
+    secondary_button    = "Not Convinced"
+    secondary_button_url = "portfolio"
+  [params.footer]
+    params.footer.qr_print = false
+    [params.footer.contactInfo]
+      title   = "Contact Info"
+      address = "Seoul, South Korea"
+      phone   = "+82 502 1913 3912"
+      email   = "support@arteuro.net"
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About Company"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Projects"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Blog"
+          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Behance"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "#"
+      [params.footer.service]
+        title       = "We help brands:"
+        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+      [params.footer.back_to_top]
+        description = "I want to <br> visit again"
 
 [services]
   [services.googleAnalytics]
@@ -53,40 +132,28 @@ ignoreLogs = ['warning-goldmark-raw-html']
           block = [['$$', '$$']]
           inline = [['\(', '\)']]
 
-[menus]
-  [[menus.main]]
-    name = "Posts"
-    url = "/posts"
-    weight = 10
-  [[menus.main]]
-    name = "Docs"
-    url = "/docs"
-    weight = 20
-  [[menus.main]]
-    name = "Repos"
-    url = "/repos"
-    weight = 30
-  [[menus.main]]
-    name = "About"
-    url = "/about"
-    weight = 40
-  [[menus.buttons]]
-    name = "Button"
-    url = "/#"
-    weight = 10
-    pre = "btn btn-primary text-dark"
-  [[menus.footer]]
-    name = "Cats"
-    url = "/categories"
-    weight = 10
-  [[menus.footer]]
-    name = "Langs"
-    url = "/languages"
-    weight = 20
-  [[menus.footer]]
-    name = "Tags"
-    url = "/tags"
-    weight = 30
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Portfolio"
+    url     = "portfolio"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Get in touch"
+    url     = "contact"
+    weight  = 5
 
 [taxonomies]
   category = 'categories'
