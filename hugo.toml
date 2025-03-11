@@ -2,7 +2,7 @@ baseURL = 'https://arteuro.net'
 title = 'the images'
 theme = 'roxo'
 copyright = 'Copyright 2025 Atelier Euro. All Rights Reserved.'
-summaryLength = 25
+summaryLength = 26
 defaultContentLanguage = 'en'
 ignoreLogs = ['warning-goldmark-raw-html']
 
