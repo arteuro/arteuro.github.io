@@ -1,6 +1,6 @@
 baseURL = 'https://arteuro.net'
 title = 'the images'
-theme = 'roxo'
+theme = 'coming-soon'
 copyright = 'Copyright 2025 Atelier Euro. All Rights Reserved.'
 summaryLength = 26
 defaultContentLanguage = 'en'
@@ -8,7 +8,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
   author = 'Atelier Euro'
-  description = "It's Under Construction..."
+  description = "It's Under Construction......"
   location = ["Seoul", "South Korea"]
   contact = ["support@arteuro.net"]
   images = ["images/hero-image.png"]
