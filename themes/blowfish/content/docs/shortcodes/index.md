@@ -234,10 +234,14 @@ This shortcode is for importing code from external sources easily without copyin
 
 **Example 1:**
 
+
+
 ```md
-{{</* codeberg repo="forgejo/forgejo" */>}}
+<!-- {{</* codeberg repo="forgejo/forgejo" */>}} -->
 ```
-{{< codeberg repo="forgejo/forgejo" >}}
+<!-- {{< codeberg repo="forgejo/forgejo" >}} -->
+
+
 
 <br/><br/><br/>
 
@@ -300,9 +304,9 @@ Blowfish also supports automatic conversion of images included using standard Ma
 **Example 1:**
 
 ```md
-{{</* forgejo server="https://v8.next.forgejo.org" repo="forgejo/forgejo" */>}}
+<!-- {{</* forgejo server="https://v8.next.forgejo.org" repo="forgejo/forgejo" */>}} -->
 ```
-{{< forgejo server="https://v8.next.forgejo.org" repo="forgejo/forgejo" >}}
+<!-- {{< forgejo server="https://v8.next.forgejo.org" repo="forgejo/forgejo" >}} -->
 
 <br/><br/><br/>
 
