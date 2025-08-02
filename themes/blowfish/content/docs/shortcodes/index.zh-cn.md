@@ -235,11 +235,6 @@ data: {
 
 **Example 1:**
 
-```md
-{{</* codeberg repo="forgejo/forgejo" */>}}
-```
-{{< codeberg repo="forgejo/forgejo" >}}
-
 <br/><br/><br/>
 
 ## Figure

@@ -232,10 +232,6 @@ data: {
 
 **例1:**
 
-```md
-{{</* codeberg repo="forgejo/forgejo" */>}}
-```
-{{< codeberg repo="forgejo/forgejo" >}}
 
 <br/><br/><br/>
 
@@ -297,10 +293,6 @@ Blowfish も、標準の Markdown 構文を使用して含まれる画像の自�
 
 **例1:**
 
-```md
-{{</* forgejo server="https://v8.next.forgejo.org" repo="forgejo/forgejo" */>}}
-```
-{{< forgejo server="https://v8.next.forgejo.org" repo="forgejo/forgejo" >}}
 
 <br/><br/><br/>
 

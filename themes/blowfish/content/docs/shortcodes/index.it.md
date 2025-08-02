@@ -234,10 +234,6 @@ This shortcode is for importing code from external sources easily without copyin
 
 **Example 1:**
 
-```md
-{{</* codeberg repo="forgejo/forgejo" */>}}
-```
-{{< codeberg repo="forgejo/forgejo" >}}
 
 <br/><br/><br/>
 
