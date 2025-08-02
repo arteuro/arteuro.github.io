@@ -1,13 +1,18 @@
 baseURL = 'https://arteuro.net'
 title = 'the images'
-theme = 'coming-soon'
+theme = 'blowfish'
 copyright = 'Copyright 2025 Atelier Euro. All Rights Reserved.'
 summaryLength = 26
 defaultContentLanguage = 'en'
 ignoreLogs = ['warning-goldmark-raw-html']
 
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.87.0"
+    max = "0.143.1"
+
 [params]
-  author = 'Atelier Euro'
   description = "It's Under Construction......"
   location = ["Seoul", "South Korea"]
   contact = ["support@arteuro.net"]
@@ -20,6 +25,8 @@ ignoreLogs = ['warning-goldmark-raw-html']
   dateFormat = "26 FEB 1994"
   fabform  = "https://fabform.io/f/USAg2Jl"
   math = true
+  [params.Author]
+    name = "Atelier Euro"
   [params.contactForm]
     placeholder_first_name        = "First Name"
     placeholder_last_name         = "Last Name"
@@ -157,9 +164,8 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 [taxonomies]
   category = 'categories'
-  language = 'languages'
   tag = 'tags'
-  doc = 'docs'
+  series = 'series'
 
 [languages]
   [languages.en]
@@ -172,16 +178,18 @@ ignoreLogs = ['warning-goldmark-raw-html']
     languageCode = 'ko-KR'
     languageName = '한국어'
     weight = 2
-    [languages.ko.params]
-      author = '아뜰리에 유로'
+    [languages.ko.params]      
       description = '아뜰리에 유로'
       location = ["서울", "대한민국"]
+      [languages.ko.params.Author]
+        name = "아뜰리에 유로"  
   [languages.ja]
     disabled = false
     languageCode = 'ja-JP'
     languageName = '日本語'
     weight = 3
-    [languages.ja.params]
-      author = 'アトリエ・ユーロ'
+    [languages.ja.params]      
       description = 'アトリエ・ユーロ'
       location = ["ソウル", "大韓民国"]
+      [languages.ja.params.Author]
+        name = "アトリエ・ユーロ"
