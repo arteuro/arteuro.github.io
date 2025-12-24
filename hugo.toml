@@ -1,6 +1,6 @@
 baseURL = 'https://arteuro.net'
 title = 'the images'
-theme = 'blowfish'
+theme = 'coming-soon'
 copyright = 'Copyright 2025 Atelier Euro. All Rights Reserved.'
 summaryLength = 26
 defaultContentLanguage = 'en'
@@ -193,3 +193,4 @@ ignoreLogs = ['warning-goldmark-raw-html']
       location = ["ソウル", "大韓民国"]
       [languages.ja.params.Author]
         name = "アトリエ・ユーロ"
+
