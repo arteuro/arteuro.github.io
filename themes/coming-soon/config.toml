@@ -7,11 +7,12 @@ theme = "coming-soon"
     description = "It's Under Construction..."
     favicon = ""
     message = "COMING SOON !" 
-    release = "March 1, 2025"
+    release = "May 11, 2026"
     background = "" 
 
 socialIcons = [
     {name = "email", url = "support@arteuro.net"},      
     {name = "instagram", url = "https://instagram.com/atelier.euro"}    
 ] 
+
 
